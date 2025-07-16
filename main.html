@@ -15,12 +15,13 @@
 		<label for="email">Email:</label><br>
 		<input type="Email" id="email" field="Email" placeholder="Enter your Email" required><br><br>
 		<label>Gender:</label><br>
-		<label for="male">Male</label><br>
 		<input type="Radio" id="male" field="Gender" value="male">
+		<label for="male">Male</label><br>
+		<input type="Radio" id="female" field="Gender" value="female">
 		<label for="female">Female</label><br>
-		<input type]="Radio" id="female" field="Gender" value="female">
-		<label for="others">others</label><br><br>
 		<input type="Radio" id="others" field="Gender" value="others">
+		<label for="others">others</label><br><br>
+
 		<label for="car">Car Brands</label><br>
 		<select id="cars" name="car">
 			<option value="toyoto">Toyoto</option>
@@ -30,10 +31,16 @@
 			<option value="Tata">Tata</option>
 		</select><br><br>
 		<label for="age">Age</label><br>
-		<input type="Number" id="age" field="Age" placeholder="Enter the your age" required><br><br>
+		<input type="Number" id="age" field="Age" min="1" max="120" required><br><br>
 		 <label for="Date" id="dob" field="DOB" required><br><br>
-			 <label for="phone Number"<Phone Number</label>
-			 <input type="Telgftgtgtgtgtgtgtgtgtgtgtgtgtgtgtgtgtgtgtgtgtgty';hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhgt00000000000000000000000000000000000000000000000000000000000000000000"
+			 <label for="phone">Phone Number</label><br>
+			 <input type="tel" id="tel" field="phone" pattern="[0-9]{10}" placeholder="Enter your phone number" required><br><br>
+			 <label for="password">Password</label><br>
+			 <input type="password" id="password" field="password" placeholder="Enter your password" required><br><br>
+			 <input type="checkbox" id="tos" feild="tos" required>
+			 <label for="tos">I agree to the Tos</label><br><br>
+			 <input type="submit" value="Submit">
+		
     <script type="text/javascript" src="./script.js">
 </script>
 
